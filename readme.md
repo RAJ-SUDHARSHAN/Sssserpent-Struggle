@@ -44,7 +44,7 @@ After a set time interval, **four enemy snakes** are added to the playing field,
 > 4. Install the required dependencies by running the command: 
 `pip install -r requirements.txt`
 > 5. Start playing the game by entering the command: 
-`python snake.py`.
+`python snake.py`
 
 ### Challenges We Faced 🚧
 One of the main challenges we faced during development was building the greedy path-finding algorithm for the enemy snakes. This algorithm needed to be **efficient and intelligent** enough to allow the enemy snakes to effectively compete for the pellets with the player's snake. We spent many hours researching and testing different algorithms to find the best solution for our game.
