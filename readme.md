@@ -24,6 +24,28 @@ We built **Sssserpent Struggle** using the Pygame library, which provided us wit
 
 After a set time interval, **four enemy snakes** are added to the playing field, each with its own path-finding algorithm, increasing the level of difficulty for the player.
 
+### Installation and Gameplay Instructions
+
+> #### Windows Users
+> 1. To download and play the game, you can find it conveniently published on itch.io. Simply visit the following link: https://rajsudharshan.itch.io/sssserpent-struggle.
+> 2. Download the game executable file (snake.exe) and the image file (blocks.png) from the website.
+> 3. Save both files in the same folder or directory on your computer.
+> 4. Open the folder or directory where you saved the files.
+> 5. Double-click on the snake.exe file to run the game. 
+> 6. If you see a warning message stating that Windows has protected your PC, click on "More info".
+> 7. Click on "Run anyway" to run the game.
+> 8. The game should start and you should be able to play it. 
+
+> #### Mac Users
+> 1. Open the terminal on your Mac.
+> 2. Clone the GitHub repository by executing the command:
+ `git clone https://github.com/RAJ-SUDHARSHAN/Sssserpent-Struggle.git`
+> 3. Navigate to the cloned repository's directory.
+> 4. Install the required dependencies by running the command: 
+`pip install -r requirements.txt`
+> 5. Start playing the game by entering the command: 
+`python snake.py`.
+
 ### Challenges We Faced 🚧
 One of the main challenges we faced during development was building the greedy path-finding algorithm for the enemy snakes. This algorithm needed to be **efficient and intelligent** enough to allow the enemy snakes to effectively compete for the pellets with the player's snake. We spent many hours researching and testing different algorithms to find the best solution for our game.
 
